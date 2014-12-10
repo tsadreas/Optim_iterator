@@ -142,12 +142,3 @@ def responses_plot(matrix, par, units, strings, case):
         file.write('{0}\n'.format(', '.join(map(str, line))))
     file.close()
 
-
-
-# generation_plot('test/statistics.csv','test')
-# x = misc.find_best('test/individuals.csv',12)
-# m = x['best']
-# units = {'SEA' : ' [Nmm/t]', 'MASS' : ' [t]','MAXF' : ' [N]', 'MAXA' : ' [mm/s]','STOPT' : ' [s]','INTER' : ' [Nmm]','AREA':''}
-# strings = {'SEA' :'SEA','MASS' : 'Mass', 'MAXF' : 'max Force', 'MAXA' : 'max Acceleration', 'STOPT' : 'Time to Stop', 'INTER' : 'Internal Energy','AREA':'Area'}
-# par = ['P1', 'P2', 'P3', 'thick']
-# responses_plot(m, par,units, strings, 'test')
